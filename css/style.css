@@ -11,6 +11,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
+button{
+    padding: 0;
+    border: none;
+}
+
 ul{
     list-style: none;
 }
@@ -41,6 +46,18 @@ body {
 
 .logo{
     margin-bottom: 35px;
+}
+.menu_btn{
+    display: none;
+    width: 40px;
+    height: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu_btn span{
+    background-color: #000;
+    height: 2px;
+    width: 100%;
 }
 
 .menu_list{
@@ -122,8 +139,50 @@ body {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 860px){
+    .menu_list{
+        display: none;
+    }
+    .menu_btn{
+        display: flex;
+    }
+    .menu{
+        order: -1;
+        margin-right: 0;
+    }
+    .logo{
+        margin-left: auto;
+        margin-right: 154px;
+    }
 
+}
+
+@media (max-width: 768px){
+    .header_inner{
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .blockquote_text{
+        max-width: 640px;
+    }
+
+}
+@media (max-width: 680px){
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header_inner{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .top_title{
+        font-size: 40px;
+    }
+    .blockquote_text{
+        font-size: 16px;
+        max-width: 376px;
+    }
 }
 
 @media (max-width: 480px){
