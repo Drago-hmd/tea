@@ -20,6 +20,13 @@ button{
 ul{
     list-style: none;
 }
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Cormorant', Serif
+    fonz-size: 40px;
+    font-weight: 400;
+}
 
 .container{
     max-width: 1240px;
@@ -162,6 +169,12 @@ body {
         margin-top: 120px;
         margin-bottom: 135px;
     }
+    .assortment{
+        margin-bottom: 120px;
+    }
+    .assortment_list{
+        gap: 0;
+    }
 }
 
 @media (max-width: 860px){
@@ -239,6 +252,11 @@ body {
     .blockquote_text{
         max-width: 640px;
     }
+    .assortment_list{
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
 
 }
 @media (max-width: 680px){
@@ -272,6 +290,13 @@ body {
     .menu_list{
         width: 360px;
     }
+    .assortment{
+        margin-bottom: 60px;
+
+    }
+    .assortment_img{
+        max-width: 170px;
+    }
 }
 
 @media (max-width: 360px){
@@ -300,6 +325,9 @@ body {
         margin-top: 70px;
         margin-bottom: 80px;
     }
+    .assortment{
+        margin-bottom: 80px;
+    }
 }
 
 .assortment{
@@ -310,11 +338,11 @@ body {
     text-align: center;
     display: flex;
     gap: 0 40px;
-    flex-wrap: wrap;
 }
 .assortment_img{
-    width: 208px;
-    height: 208px;
+    max-width: 208px;
+    max-height: 208px;
+    width: 100%;
 }
 .assortment_name{
     padding-top: 10px;
