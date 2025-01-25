@@ -23,8 +23,8 @@ ul{
 .title{
     text-align: center;
     margin-bottom: 60px;
-    font-family: 'Cormorant', Serif
-    fonz-size: 40px;
+    font-family: 'Cormorant', Serif;
+    font-size: 40px;
     font-weight: 400;
 }
 
@@ -150,6 +150,9 @@ body {
 }
 
 @media (max-width: 1000px){
+    .title{
+        margin-bottom: 30px;
+    }
     .user-actions_item-search{
         margin-left: 30px;
     }
@@ -300,6 +303,9 @@ body {
 }
 
 @media (max-width: 360px){
+    .title{
+        margin-bottom: 10px;
+    }
     .logo{
         margin-right: 50px;
     }
@@ -349,4 +355,16 @@ body {
     font-family: 'Cormorant', Serif;
     font-size: 24px;
     font-weight: 400;
+}
+.reviews{
+    background-color: #F7F2EA;
+    padding-bottom: 60px;
+}
+.reviews_list{
+    display: flex;
+    justify-content: space-between;
+}
+.reviews_item{
+    font-size: 10px;
+    font-family: 'light italic';
 }
