@@ -301,3 +301,24 @@ body {
         margin-bottom: 80px;
     }
 }
+
+.assortment{
+    margin-bottom: 150px;
+}
+
+.assortment_list{
+    text-align: center;
+    display: flex;
+    gap: 0 40px;
+    flex-wrap: wrap;
+}
+.assortment_img{
+    width: 208px;
+    height: 208px;
+}
+.assortment_name{
+    padding-top: 10px;
+    font-family: 'Cormorant', Serif;
+    font-size: 24px;
+    font-weight: 400;
+}
